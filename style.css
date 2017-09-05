@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Cambo");
+@import url("https://fonts.googleapis.com/css?family=Yellowtail");
+body, html, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: #cdcdcd;
+}
+
+header {
+  max-width: 100%;
+  height: 185px;
+  background: #1c1c1c;
+}
+header #wrap-one {
+  max-width: 950px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(10, auto);
+}
+header #wrap-one #smart {
+  font-size: 60px;
+  font-family: "Cambo";
+  color: white;
+  line-height: 0.5;
+  text-align: left;
+  width: 168px;
+  height: 52px;
+  grid-row: 4/5;
+}
+header #wrap-one #insp-inn {
+  font-size: 16px;
+  font-family: "Arial";
+  color: #828282;
+  line-height: 3;
+  text-align: left;
+  grid-row: 5/5;
+  margin-top: -20px;
+}
+header #wrap-one form {
+  background: #1c1c1c;
+  grid-column: 10/10;
+  grid-row: 2/3;
+  justify-self: end;
+}
+header #wrap-one input {
+  font-size: 11px;
+  font-family: "Arial";
+  background: #1c1c1c;
+  border: 1px solid #2c2c2c;
+  padding: 5px;
+}
+header #wrap-one #submit {
+  font-size: 13px;
+  font-family: "Arial";
+  color: white;
+  display: inline;
+  border-radius: 5px;
+  background: #3e3e3e;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+#first-art {
+  background-image: url("http://res.cloudinary.com/norberts/image/upload/v1504556609/104_hvscno.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first-art #wrap-two {
+  max-width: 950px;
+  height: 596px;
+  z-index: 3;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+#first-art #wrap-two #only {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Cambo";
+  color: #ffffff;
+}
+#first-art #wrap-two #only-layer {
+  opacity: 0.831;
+  background: #0b191f;
+  grid-row: 4/5;
+  grid-column: 4/10;
+  padding: 10px 50px;
+}
+#first-art #wrap-two #customer {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Cambo";
+  color: #ffffff;
+}
+#first-art #wrap-two #customer-layer {
+  opacity: 0.831;
+  background: #2e465f;
+  height: 65%;
+  max-width: 65%;
+  grid-row: 5/6;
+  grid-column: 4/10;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+
+#wrap-three {
+  margin: 0 auto;
+  max-width: 950px;
+  display: flex;
+  margin-top: -100px;
+  justify-content: space-between;
+}
+
+.box {
+  width: 235px;
+  height: 331px;
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 15px;
+  width: 60px;
+  margin: 0 auto;
+  background: #456585;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.even {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.odd {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.great {
+  font-size: 70px;
+  font-family: "Tahoma";
+  color: #391f1f;
+  font-weight: bold;
+  line-height: 0.343;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.solution {
+  font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  color: #313131;
+  line-height: 0.8;
+  margin-bottom: 10px;
+}
+
+.box:hover {
+  background: #373737;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.box:hover .btn {
+  border-radius: 15px;
+  width: 60px;
+  margin: 0 auto;
+  background: #dcdcdc;
+}
+.box:hover .great {
+  color: #ffe5e5;
+}
+.box:hover .solution {
+  font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  color: #ffe5e5;
+  line-height: 0.8;
+}
+
+#strip {
+  height: 144px;
+  max-width: 950px;
+  background: #ababab;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#strip #strip-text {
+  width: 60%;
+  text-align: left;
+  color: white;
+}
+
+footer {
+  height: 185px;
+  background: #313131;
+}
